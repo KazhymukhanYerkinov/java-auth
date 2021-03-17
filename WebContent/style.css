@@ -1,0 +1,299 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+
+
+/* Header */
+.header {
+    padding: 20px 15px;
+    background-color: blueviolet;
+}
+.header__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #fff;
+    text-align: center;
+}
+.header__desc {
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #fff;
+    text-align: center;
+}
+.header__buttons {
+    display: flex;
+    justify-content: space-between;
+}
+.button__login, .button__egster {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+    width: 150px;
+    height: 40px;
+
+    background-color: #fff;
+    color: #222222;
+}
+
+
+/* CONTENT */
+.content {
+    display: flex;
+    min-height: 83vh;
+    width: 100%;
+}
+.sidebar {
+    padding: 20px 25px;
+
+    width: 15%;
+    border-right: 3px solid blueviolet;
+}
+.sidebar__link {
+    display: inline-block;
+
+    font-size: 12px;
+    line-height: 25px;
+}
+.linkeeee {
+	display: block;
+	
+	font-size: 14px;
+    line-height: 25px;
+}
+
+/* LOGIN */
+.login {
+    padding: 20px;
+
+}
+.login__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #222222;
+}
+
+.input__group {
+    margin-top: 20px;
+}
+.label {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+.input__class {
+    margin-top: 5px;
+
+    width: 250px;
+    padding: 7px 10px;
+    border: 1px solid #222222;
+    border-radius: 5px;
+}
+.submit {
+	padding-top: 5px;
+    display: block;
+    margin: 15px auto;
+    width: 120px;
+    height: 30px;
+
+    border: 1px solid #222222;
+    background-color: #fff;
+    border-radius: 3px;
+    text-align: center; 
+    color: #222222;
+}
+
+/* HOME STYLE */
+.home {
+    width: 90%;
+    padding: 15px 20px;
+}
+.title {
+    margin-top: 20px;
+
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 700;
+
+    text-align: center;
+    color: #222222;
+}
+
+/* Comment block */
+.comment {
+    margin-top: 20px;
+}
+.comment__info {
+    display: flex;
+    align-items: center;
+}
+.button {
+    width: 25px;
+    height: 25px;
+
+    font-weight: 700;
+    border: 1px solid #222222;
+    border-radius: 3px;
+}
+.name {
+    margin-left: 10px;
+
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;  
+}
+.date {
+    margin-left: 10px;
+
+    font-size: 16px;
+    line-height: 19px;
+    font-style: italic;
+
+    color: #8D8D8D;
+}
+.text {
+    margin-top: 15px;
+    margin-left: 35px;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.next__comment {
+    margin-left: 35px;
+}
+
+/* Text Area */
+.text__field {
+    padding: 0 20px;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.textarea {
+    border: 1px solid #222222;
+    width: 80%;
+    margin-left: 10px;
+}
+
+/* Visitor */
+.visit {
+    width: 90%;
+    padding: 20px 15px;
+}
+
+
+/* Comment Text Area */
+.comment__area {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.comment_area {
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #222222;
+    height: 50px;
+    width: 50%;
+}
+.submit__right {
+    margin: 0;
+    
+}
+
+/* Register */
+.register {
+    padding: 20px 15px;
+}
+
+/* footer */ 
+.footer {
+    padding: 20px 0;
+
+    font-size: 16px;
+    line-height: 19px;
+    color: #fff;
+
+    background-color: blueviolet;
+    text-align: center;
+
+}
